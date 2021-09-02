@@ -1,0 +1,220 @@
+.main{
+    width: 940px;
+    height: 460px;
+    margin-left: 260px;
+    margin-top: 10px;
+    background-color:#ffffff;
+
+}
+/*轮播图模块*/
+.main .focus{
+    width: 680px;
+    height: 460px;
+    /*background-color: #ff6700;*/
+    float: left;
+    position: relative;
+}
+.main .focus img{
+    width: 680px;
+    height: 460px;
+}
+.main .focus .prev{
+    /*display: block;*/
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 25px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0,0,0,.3);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.main .focus .next{
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    right: 0;
+    width: 25px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.main .focus .pointer{
+    position: absolute;
+    bottom:25px;
+    left: 30px;
+}
+.main .focus .pointer a{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    margin-left: 5px;
+    /*background-color: red;*/
+}
+
+.main .newsflash{
+    width: 250px;
+    height: 460px;
+    /*background-color: palegreen;*/
+    float:right;
+}
+/*新闻快报模块start*/
+.main .newsflash .news{
+    height: 170px;
+    border: 1px solid #e4e4e4;
+    /*background-color: red;*/
+}
+.main .newsflash .news-hd{
+    height: 35px;
+    line-height: 35px;
+    padding: 0 5px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.main .newsflash .news-hd h5{
+    float: left;
+    font-size: 16px;
+}
+.main .newsflash .news-hd a{
+    float: right;
+    font-size: 14px;
+}
+.main .newsflash .news-hd i{
+    margin-left: 5px;
+}
+.main .newsflash .news-bd li{
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*新闻快报模块end*/
+.main .newsflash .life-service{
+    height: 210px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.main .newsflash .life-service ul{
+    width: 252px;
+}
+.main .newsflash .life-service li{
+    width: 63px;
+    height: 71px;
+    /*line-height: 71px;*/
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.main .newsflash .life-service li i{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    background: url("../images/icons.png") no-repeat -18px -14px;
+
+}
+.main .newsflash .life-service ul li:last-child i{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    background: url("../images/icons.png") no-repeat -77px -17px;
+
+}
+.main .newsflash .bargain{
+    padding-top: 5px;
+    height: 85px;
+    /*background-color: purple;*/
+}
+.main .newsflash .bargain img{
+    /*width: 250px;*/
+    /*height: 90px;*/
+}
+.recom{
+    height: 163px;
+    /*background-color: pink;*/
+}
+.recom .hd{
+    width: 200px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+    padding-top: 30px;
+    float: left;
+}
+.recom .hd p{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.recom .bd{
+    width: 1000px;
+    height: 163px;
+    /*background-color: #bbffaa;*/
+    float: left;
+}
+.recom .bd li{
+    display: block;
+    width: 250px;
+    height: 163px;
+    background-color: #ebebeb;
+    float: left;
+    padding-top: 10px;
+    border-right: 1px solid #cccccc;
+}
+/*楼层区域制作*/
+/*一楼家用电器部分*/
+.floor .w{
+    /*二楼的手机通讯也有一个margin-top，为了方便，所以给w属性设置margin-top*/
+    margin-top: 30px;
+}
+.floor .jiadian .box-hd{
+    /*padding-top: 15px;*/
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #c81623;
+
+}
+.floor .jiadian .box-hd h3{
+    float: left;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    font-weight: 400;
+    color: #b1191a;
+
+}
+.floor .jiadian .box-hd .tab-list{
+    float: right;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.floor .jiadian .box-hd .tab-list li{
+    float: left;
+}
+.floor .jiadian .box-hd .tab-list ul li:nth-child(even){
+    margin: 0 15px;
+}
+.floor .jiadian .box-bd{
+    height: 360px;
+    background-color: pink;
+}
+.box-bd .tab-content .tab-list-item1>div{
+    float: left;
+}
